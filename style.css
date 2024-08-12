@@ -237,7 +237,7 @@ Responsive Media Query Code *|
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .container .weather-card {
     width: 100%;
   }
