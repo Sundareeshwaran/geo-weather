@@ -250,4 +250,7 @@ Responsive Media Query Code *|
   .container .weather-card .body .left .weather {
     margin-top: 1rem;
   }
+.container .weather-card .body .right .hourly-forecast .h-rows .hrs {
+font-size: calc(var(--font-size-base) + 5px);
+}
 }
