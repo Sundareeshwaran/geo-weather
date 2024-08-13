@@ -124,7 +124,7 @@ async function dayForecast(lat, lon) {
         filteredData.push({
           day: date.toLocaleDateString("en-US", { weekday: "short" }),
           temp: Math.round(forecast.main.temp_max),
-          weather_dis: forecast.weather[0].description,
+          weather_dis: forecast.weather[0].main,
         });
       }
     });
@@ -157,7 +157,7 @@ async function hourlyForecast(lat, lon) {
     hourForecast.innerHTML = "";
     for (let i = 0; i < 6; i++) {
       let temp = Math.round(data.list[i].main.temp);
-      let weather_dis = data.list[i].weather[0].main;
+      let weather_dis = data.list[i].weather[0].description;
       let time = new Date(data.list[i].dt_txt);
       let hours = time.getHours();
       let timeFormat = hours >= 12 ? "PM" : "AM";
