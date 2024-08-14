@@ -144,7 +144,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 0.3rem 0.7rem;
-  font-size: calc(var(--font-size-base) + 5px);
+  font-size: calc(var(--font-size-1) + 5px);
 }
 
 .container .weather-card .body .left .daily-forecast .d-rows > :first-child {
