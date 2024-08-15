@@ -60,8 +60,7 @@ async function weather() {
     hourlyForecast(lat, lon);
 
     display.style.display = "block";
-    display.style.transition = "all 0.5s ease-in-out";
-    console.log(data,response)
+    display.style.transition = "0.5s ease-in-out";
   } catch (error) {
     console.error("Error fetching weather data:", error);
     display.style.display = "none";
