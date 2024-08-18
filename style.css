@@ -216,5 +216,7 @@ Rotation Media Query Code ***|
 |****************************/
 
 @media screen and (max-width: 512px) {
-  transform: rotate(90deg);
+  .container .weather-card {
+    transform: rotate(90deg);
+  }
 }
