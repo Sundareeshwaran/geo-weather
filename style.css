@@ -212,46 +212,9 @@ body {
 }
 
 /****************************|
-Responsive Media Query Code *|
+Rotation Media Query Code ***|
 |****************************/
 
-/*@media screen and (max-width: 872px) {
-  .container .weather-card .body {
-    flex-direction: column;
-  }
-  .container .weather-card .body .right .top {
-    align-items: flex-start;
-  }
-  .container .weather-card .body .left .header {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .container .weather-card .body .right .hourly-forecast .h-rows {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-  }
-  .container .weather-card .body .right {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+@media screen and (max-width: 512px) {
+  transform: rotate(90deg);
 }
-
-@media screen and (max-width: 550px) {
-  .container .weather-card {
-    width: 100%;
-  }
-  .container .weather-card .body .right .weather-info {
-    display: none;
-  }
-  .container .weather-card .body .left .weather .temp {
-    font-size: var(--font-size-5);
-  }
-  .container .weather-card .body .left .weather {
-    margin-top: 1rem;
-  }
-.container .weather-card .body .right .hourly-forecast .h-rows .hrs {
-    font-size: calc(var(--font-size-base) + 5px);
-  }
-}
-*/
