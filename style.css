@@ -215,7 +215,7 @@ body {
 Responsive Media Query Code *|
 |****************************/
 
-@media screen and (max-width: 872px) {
+/*@media screen and (max-width: 872px) {
   .container .weather-card .body {
     flex-direction: column;
   }
@@ -254,3 +254,4 @@ Responsive Media Query Code *|
     font-size: calc(var(--font-size-base) + 5px);
   }
 }
+*/
